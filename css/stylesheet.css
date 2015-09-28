@@ -61,21 +61,6 @@ h4{
 .boxes{
     margin-bottom: 10px;
 }
-/*.jumbotron{*/
-/*height: 30em;*/
-/*/!*background-image: url('../img/1564-crop.jpg');*!/*/
-/*/!*background-image: url('../img/highres-crop.jpg');*!/*/
-/*background-image: url('../img/steveknowshomesbackground.jpg');*/
-/*background-repeat: no-repeat;*/
-/*background-position: center;*/
-/*background-size:100% 100%;*/
-/*margin-top: 20px;*/
-/*}*/
-
-/*#jumbo{*/
-/*padding-right: 5px;*/
-/*padding-top: 10px;*/
-/*}*/
 
 .rounded{
     border-radius: 20px;
@@ -107,19 +92,22 @@ h4{
     cursor: pointer;
 }
 
-/*
-.outline-green{
-outline: #00FF00 dotted thick;
-}
 
-.outline-red{
-outline: red dotted thick;
-}
+/* Custom Styles to Test Div Dimensions*/
 
-.outline-blue{
-outline: blue dotted thick;
-}
-*/
+    /*
+    .outline-green{
+    outline: #00FF00 dotted thick;
+    }
+
+    .outline-red{
+    outline: red dotted thick;
+    }
+
+    .outline-blue{
+    outline: blue dotted thick;
+    }
+    */
 
 .top-buffer {
     margin-top:10px;
