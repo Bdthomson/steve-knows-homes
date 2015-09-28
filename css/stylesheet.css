@@ -1,0 +1,148 @@
+@font-face {
+    font-family: heavyFont;
+    src: url(../fonts/custom.ttf);
+}
+
+h1{
+    font-size: 60px;
+    font-family: heavyFont;
+}
+
+h3{
+    font-size: 35px;
+    font-family: heavyFont;
+}
+
+h4{
+    font-size: 22px;
+    font-family: heavyFont;
+}
+
+.pics {
+    margin-bottom: 10px;
+}
+
+.size{
+    max-height: 10em;
+}
+
+
+.text-align{
+    text-align: center;
+}
+
+.img-center {
+    margin:0 auto;
+}
+
+
+#logo{
+    margin-top: 3px;
+}
+
+.top-buffer{
+    top-margin: 10px;
+}
+
+
+.top{
+    background-image: url('../img/steveknowshomesbackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+}
+
+#reviews{
+    overflow: hidden;
+    height: 19em;
+    margin-top: -50px;
+}
+
+.boxes{
+    margin-bottom: 10px;
+}
+/*.jumbotron{*/
+/*height: 30em;*/
+/*/!*background-image: url('../img/1564-crop.jpg');*!/*/
+/*/!*background-image: url('../img/highres-crop.jpg');*!/*/
+/*background-image: url('../img/steveknowshomesbackground.jpg');*/
+/*background-repeat: no-repeat;*/
+/*background-position: center;*/
+/*background-size:100% 100%;*/
+/*margin-top: 20px;*/
+/*}*/
+
+/*#jumbo{*/
+/*padding-right: 5px;*/
+/*padding-top: 10px;*/
+/*}*/
+
+.rounded{
+    border-radius: 20px;
+}
+.pad{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.backbox{
+    background-color: rgba(220, 220, 220, .95);
+}
+
+/* Review Names Bold */
+.name{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.modal-content{
+    padding: 30px;
+    margin-top: 17%;
+}
+
+/*Modal Fix*/
+.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
+
+/*
+.outline-green{
+outline: #00FF00 dotted thick;
+}
+
+.outline-red{
+outline: red dotted thick;
+}
+
+.outline-blue{
+outline: blue dotted thick;
+}
+*/
+
+.top-buffer {
+    margin-top:10px;
+}
+
+
+#spacer{
+    margin-top: 5px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 1200px) {
+    .button-width{
+        width: 49%;
+    }
+}
+
+@media only screen and (max-width : 1200px) {
+    #email{
+        width: 11em;
+    }
+}
+
+#long{
+    width: 100%;
+}
