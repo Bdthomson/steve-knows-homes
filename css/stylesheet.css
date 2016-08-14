@@ -3,17 +3,17 @@
     src: url(../fonts/custom.ttf);
 }
 
-h1{
+h1 {
     font-size: 60px;
     font-family: heavyFont;
 }
 
-h3{
+h3 {
     font-size: 35px;
     font-family: heavyFont;
 }
 
-h4{
+h4 {
     font-size: 22px;
     font-family: heavyFont;
 }
@@ -22,72 +22,74 @@ h4{
     margin-bottom: 10px;
 }
 
-.size{
+.size {
     max-height: 10em;
 }
 
-
-.text-align{
+.text-align {
     text-align: center;
 }
 
 .img-center {
-    margin:0 auto;
+    margin: 0 auto;
 }
 
-
-#logo{
+#logo {
     margin-top: 3px;
 }
 
-.top-buffer{
+.top-buffer {
     top-margin: 10px;
 }
 
-
-.top{
+.top {
     background-image: url('../img/steveknowshomesbackground.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size:100% 100%;
+    background-size: 100% 100%;
 }
 
-#reviews{
+#reviews {
     overflow: hidden;
     height: 19em;
     margin-top: -50px;
 }
 
-.boxes{
+.boxes {
     margin-bottom: 10px;
 }
 
-.rounded{
+.rounded {
     border-radius: 20px;
 }
-.pad{
+
+.pad {
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.backbox{
+.backbox {
     background-color: rgba(220, 220, 220, .95);
 }
 
+
 /* Review Names Bold */
-.name{
+
+.name {
     text-transform: capitalize;
     font-weight: bold;
 }
 
-.modal-content{
+.modal-content {
     padding: 30px;
     margin-top: 17%;
 }
 
+
 /*Modal Fix*/
+
 .nav, .pagination, .carousel, .panel-title a {
     cursor: pointer;
 }
@@ -95,7 +97,8 @@ h4{
 
 /* Custom Styles to Test Div Dimensions*/
 
-    /*
+
+/*
     .outline-green{
     outline: #00FF00 dotted thick;
     }
@@ -110,27 +113,28 @@ h4{
     */
 
 .top-buffer {
-    margin-top:10px;
+    margin-top: 10px;
 }
 
-
-#spacer{
+#spacer {
     margin-top: 5px;
 }
 
+
 /* Small Devices, Tablets */
-@media only screen and (min-width : 1200px) {
-    .button-width{
+
+@media only screen and (min-width: 1200px) {
+    .button-width {
         width: 49%;
     }
 }
 
-@media only screen and (max-width : 1200px) {
-    #email{
+@media only screen and (max-width: 1200px) {
+    #email {
         width: 11em;
     }
 }
 
-#long{
+#long {
     width: 100%;
 }

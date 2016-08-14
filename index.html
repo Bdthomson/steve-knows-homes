@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,83 +31,108 @@
     <script src='app.js'></script>
 
 </head>
+
 <body ng-controller="AppCtrl" ng-cloak>
 
-<div class="container-fluid top outline-red">
+    <div class="container-fluid top outline-red">
 
-    <div class="row pics">
+        <div class="row pics">
 
-        <div id="logo" class="col-xs-2">
-            <img src="img/logo.png" class="img-responsive"/>
-        </div>
-
-        <div class="col-xs-3 col-xs-offset-5 pull-right">
-            <img id="combined" src="img/ranlife.gif" class="img-responsive size"/>
-        </div>
-
-    </div>
-
-    <div class="row boxes">
-        <div class="col-xs-5 col-sm-3 col-lg-3 pull-right adjust">
-            <div id="reviews" class="backbox rounded">
-
-                <br><br><br><br><br><br><br><br><br><br><br><br>
-                <!-- Starts the scroll halfway -->
-
-                <div ng-repeat="review in reviews track by $index" ng-cloak class="pad" id="reviewtext" >
-                    <span class="name" >{{review.author_name}}</span>
-                    <span>{{review.date}} </span>
-                    <br />
-                    {{review.text}}
-
-                    <br><br><br>
-                    <!-- Space between reviews -->
-
-
-                </div> <!-- End Inner Reviews -->
-            </div> <!-- Review Box End -->
-
-            <!-- 2 Buttons Side by Side -->
-            <div class="top-buffer text-align">
-                <button ng-click="open()" class="btn btn-info button-width">Read Steve's Bio </button>
-                <div class="visible-xs visible-sm visible-md">
-                    <div id="spacer"></div>
-                </div>
-                <a target="_blank" href="https://plus.google.com/109617415393265521195/about"><button class="btn btn-info button-width">Read All Reviews</button></a>
-                <div id="spacer"></div>
-                <a href="mailto:stomps@comcast.net"><button id="email" class="btn btn-info button-width">Email Steve </button></a>
-                <div class="visible-xs visible-sm visible-md">
-                    <div id="spacer"></div>
-                </div>
-                <a target="_blank" href="http://www.utahrealestate.com/index/public.index"><button class="btn btn-info button-width">Search Properties</button></a>
-                <div id="spacer"></div>
-                <a target="_blank" href="https://www.youtube.com/watch?v=mxzgwJ8tSE0"><button id="long" class="btn btn-info button-width">Something Completely Different</button></a>
+            <div id="logo" class="col-xs-2">
+                <img src="img/logo.png" class="img-responsive" />
             </div>
 
+            <div class="col-xs-3 col-xs-offset-5 pull-right">
+                <img id="combined" src="img/ranlife.gif" class="img-responsive size" />
+            </div>
 
         </div>
-    </div>
-</div>
 
-<div class="container-fluid">
-    <div class="row text outline-blue">
-        <div class="col-xs-9 col-xs-offset-2 text-align">
-            <h4>Experience. Negotiations. Contracting. Compatibility. Availability.</h4>
-            <h3>What more could you ask for?</h3>
+        <div class="row boxes">
+            <div class="col-xs-5 col-sm-3 col-lg-3 pull-right adjust">
+                <div id="reviews" class="backbox rounded">
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <!-- Starts the scroll halfway -->
+
+                    <div ng-repeat="review in reviews track by $index" ng-cloak class="pad" id="reviewtext">
+                        <span class="name">{{review.author_name}}</span>
+                        <span>{{review.date}} </span>
+                        <br /> {{review.text}}
+
+                        <br>
+                        <br>
+                        <br>
+                        <!-- Space between reviews -->
+
+
+                    </div>
+                    <!-- End Inner Reviews -->
+                </div>
+                <!-- Review Box End -->
+
+                <!-- 2 Buttons Side by Side -->
+                <div class="top-buffer text-align">
+                    <button ng-click="open()" class="btn btn-info button-width">Read Steve's Bio </button>
+                    <div class="visible-xs visible-sm visible-md">
+                        <div id="spacer"></div>
+                    </div>
+                    <a target="_blank" href="https://plus.google.com/109617415393265521195/about">
+                        <button class="btn btn-info button-width">Read All Reviews</button>
+                    </a >
+                    <div id="spacer"></div>
+                    <a href="mailto:stomps@comcast.net">
+                        <button id="email" class="btn btn-info button-width">Email Steve </button>
+                    </a>
+                    <div class="visible-xs visible-sm visible-md">
+                        <div id="spacer"></div>
+                    </div>
+                    <a target="_blank" href="http://www.utahrealestate.com/index/public.index">
+                        <button class="btn btn-info button-width">Search Properties</button>
+                    </a>
+                    <div id="spacer"></div>
+                    <a target="_blank" href="https://www.youtube.com/watch?v=mxzgwJ8tSE0">
+                        <button id="long" class="btn btn-info button-width">Something Completely Different</button>
+                    </a>
+                </div>
+
+
+            </div>
         </div>
     </div>
-</div>
 
-<!-- Footer -->
-<div id="map"></div> <!-- Needed for Reviews -->
+    <div class="container-fluid">
+        <div class="row text outline-blue">
+            <div class="col-xs-9 col-xs-offset-2 text-align">
+                <h4>Experience. Negotiations. Contracting. Compatibility. Availability.</h4>
+                <h3>What more could you ask for?</h3>
+            </div>
+        </div>
+    </div>
 
-<!-- JQuery -->
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<!-- JQuery Scroll -->
-<script src='scripts.js'></script>
+    <!-- Footer -->
+    <div id="map"></div>
+    <!-- Needed for Reviews -->
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- JQuery Scroll -->
+    <script src='scripts.js'></script>
 
 
 </body>
+
 </html>
